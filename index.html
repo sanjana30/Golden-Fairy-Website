@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Golden Fairy</title>
+    <link rel="shortcut icon" type="image/png" href="portfolio-icon.png">
+    <!-- include jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- include materialize -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--include viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <!-- Added Font -->
+    <link href="https://fonts.googleapis.com/css?family=Antic|Cabin+Sketch|Neucha" rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    nav {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .clearfix {
+        content: "";
+        clear: both;
+        display: table;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Golden Fairy</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#">Halls</a>
+                    </li>
+                    <li>
+                        <a href="#">Rooms</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="images/slide1.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="images/slide2.jpg">
+                <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Left Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="images/slide3.jpg">
+                <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Right Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="images/slide4.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+<!-- intro section -->
+<div class="section" >
+        <div class="row container" >
+            <h3 class="header">Golden Fairy Resort</h3>
+            <hr>
+            <p class="grey-text text-darken-3 lighten-3">
+                <div class="row valign-wrapper">
+                    
+                    <div class="col l12">
+                        <span class="black-text clearfix">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores iste repellendus odio nemo numquam omnis iure nobis obcaecati
+                            qui nesciunt, fugiat ipsum consequatur tempora aliquid eum, autem non eligendi modi. Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Eligendi, saepe et tempore repellendus,
+                            nesciunt, laborum doloremque hic placeat sunt soluta laboriosam perspiciatis illum mollitia.
+                            Praesentium reiciendis totam veritatis obcaecati error. Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Accusamus a est, harum consequatur, vel itaque atque excepturi rerum voluptates
+                            quam deleniti aut obcaecati sapiente ut architecto minus, facere nisi modi! Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Ea eaque vitae odit aspernatur earum rem eligendi
+                            nobis quis hic! Aliquam ab esse consequatur alias? Nihil iste pariatur soluta excepturi adipisci!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus totam quis culpa sint?
+                            Ab soluta voluptas, corrupti explicabo, iste dolorum dicta a voluptatem iure voluptate laudantium?
+                            Iusto cupiditate sunt ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                            ipsa repudiandae possimus quos aperiam quasi quod! Laborum in cum, ex molestias, sed nemo
+                            enim qui, aliquam debitis cumque soluta ratione!
+                        </span>
+                    </div>
+                </div>
+            </p>
+        </div>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.parallax').parallax();
+            $('.slider').slider();
+        });
+        $(document).ready(function () {
+            $('.fixed-action-btn').floatingActionButton();
+        });
+
+    </script>
+</body>
+
+</html>
